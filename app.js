@@ -1,4 +1,5 @@
 /*
+Process 
 1. Dom Selection
 2. Event Listener
 3. Basic Validation
@@ -24,12 +25,12 @@ btn.addEventListener('click', function(e){
         newTitle.innerHTML = title.value;
         newRow.appendChild(newTitle);
         
-        //creating new title
+        //creating new author
         const newAuthor = document.createElement('td')
         newAuthor.innerHTML = author.value;
         newRow.appendChild(newAuthor);
         
-        //creating new title
+        //creating new year
         const newYear = document.createElement('td')
         newYear.innerHTML = year.value;
         newRow.appendChild(newYear);
